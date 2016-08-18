@@ -1,0 +1,12 @@
+body{
+	padding:20px 0;
+}
+
+.toggle-edit.edited > .edit-display,
+.toggle-edit > .edit-composer{
+	display:none!important;
+}
+
+.toggle-edit.edited > .edit-composer{
+	display:block!important;
+}
